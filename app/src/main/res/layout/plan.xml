@@ -12,13 +12,13 @@
         android:layout_height="735dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="-2dp">
+        tools:layout_editor_absoluteY="-2dp"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/textView14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/lilita_one"
             android:text="Пятница"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
@@ -65,17 +65,15 @@
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/bowlby_one"
             android:text="Установите план на неделю"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="24sp" />
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/textViewMonday"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/lilita_one"
             android:text="Понедельник"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
@@ -87,7 +85,7 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/radioButton5"
+                android:id="@+id/radioButtonMondayRestore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -95,7 +93,7 @@
                 android:textSize="10sp" />
 
             <RadioButton
-                android:id="@+id/radioButton6"
+                android:id="@+id/radioButtonMondayEasy"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -103,7 +101,7 @@
                 android:textSize="10sp" />
 
             <RadioButton
-                android:id="@+id/radioButton7"
+                android:id="@+id/radioButtonMOndayTemp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -111,7 +109,7 @@
                 android:textSize="10sp" />
 
             <RadioButton
-                android:id="@+id/radioButton8"
+                android:id="@+id/radioButtonMondayLong"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -132,10 +130,9 @@
                 app:barrierDirection="left" />
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/textViewTuesday"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/lilita_one"
                 android:text="Вторник"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
@@ -147,7 +144,7 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/radioButton5"
+                    android:id="@+id/radioButtonTuesdayRestore"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -155,7 +152,7 @@
                     android:textSize="10sp" />
 
                 <RadioButton
-                    android:id="@+id/radioButton6"
+                    android:id="@+id/radioButtonTuesdayEasy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -163,7 +160,7 @@
                     android:textSize="10sp" />
 
                 <RadioButton
-                    android:id="@+id/radioButton7"
+                    android:id="@+id/radioButtonTuesdayTemp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -171,7 +168,7 @@
                     android:textSize="10sp" />
 
                 <RadioButton
-                    android:id="@+id/radioButton8"
+                    android:id="@+id/radioButtonTuesdayLong"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -180,10 +177,9 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/textViewWednesday"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/lilita_one"
                 android:text="Среда"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
@@ -207,7 +203,7 @@
                     android:orientation="horizontal">
 
                     <RadioButton
-                        android:id="@+id/radioButton5"
+                        android:id="@+id/radioButtonWednesdayRestore"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -215,7 +211,7 @@
                         android:textSize="10sp" />
 
                     <RadioButton
-                        android:id="@+id/radioButton6"
+                        android:id="@+id/radioButtonWednesdayEasy"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -223,7 +219,7 @@
                         android:textSize="10sp" />
 
                     <RadioButton
-                        android:id="@+id/radioButton7"
+                        android:id="@+id/radioButtonWednesdayTemp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -231,7 +227,7 @@
                         android:textSize="10sp" />
 
                     <RadioButton
-                        android:id="@+id/radioButton8"
+                        android:id="@+id/radioButtonWednesdayLong"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -240,10 +236,9 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/textView11"
+                    android:id="@+id/textViewThursday"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/lilita_one"
                     android:text="Четверг"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
@@ -267,7 +262,7 @@
                         android:orientation="horizontal">
 
                         <RadioButton
-                            android:id="@+id/radioButton5"
+                            android:id="@+id/radioButtonThursdayRestore"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -275,7 +270,7 @@
                             android:textSize="10sp" />
 
                         <RadioButton
-                            android:id="@+id/radioButton6"
+                            android:id="@+id/radioButtonThursdayEasy"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -283,7 +278,7 @@
                             android:textSize="10sp" />
 
                         <RadioButton
-                            android:id="@+id/radioButton7"
+                            android:id="@+id/radioButtonThursdayTemp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -291,7 +286,7 @@
                             android:textSize="10sp" />
 
                         <RadioButton
-                            android:id="@+id/radioButton8"
+                            android:id="@+id/radioButtonThursdayLong"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -300,10 +295,9 @@
                     </LinearLayout>
 
                     <TextView
-                        android:id="@+id/textView11"
+                        android:id="@+id/textViewFriday"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/lilita_one"
                         android:text="Пятница"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
@@ -316,7 +310,7 @@
                         android:orientation="horizontal">
 
                         <RadioButton
-                            android:id="@+id/radioButton5"
+                            android:id="@+id/radioButtonFridayRestore"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -324,7 +318,7 @@
                             android:textSize="10sp" />
 
                         <RadioButton
-                            android:id="@+id/radioButton6"
+                            android:id="@+id/radioButtonFridayEasy"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -332,7 +326,7 @@
                             android:textSize="10sp" />
 
                         <RadioButton
-                            android:id="@+id/radioButton7"
+                            android:id="@+id/radioButtonFridayTemp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -340,7 +334,7 @@
                             android:textSize="10sp" />
 
                         <RadioButton
-                            android:id="@+id/radioButton8"
+                            android:id="@+id/radioButtonFridayLong"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -372,7 +366,7 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/radioButton5"
+                    android:id="@+id/radioButtonRestore"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -380,7 +374,7 @@
                     android:textSize="10sp" />
 
                 <RadioButton
-                    android:id="@+id/radioButton6"
+                    android:id="@+id/radioButtonEasy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -388,7 +382,7 @@
                     android:textSize="10sp" />
 
                 <RadioButton
-                    android:id="@+id/radioButton7"
+                    android:id="@+id/radioButtonTemp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -396,7 +390,7 @@
                     android:textSize="10sp" />
 
                 <RadioButton
-                    android:id="@+id/radioButton8"
+                    android:id="@+id/radioButtonLong"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -407,4 +401,16 @@
         </LinearLayout>
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/ButtonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_weight="1"
+        android:text="Сохранить"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
